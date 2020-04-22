@@ -6,6 +6,9 @@ header, footer, .btn {
   background-color: #3B8D8B;
 }
 
+h1 {
+  font-family: 'Raleway', sans-serif;
+}
 h2, h3 {
   color: #3B8D8B;
   font-family: "Be Vietnam", sans-serif;
@@ -14,4 +17,8 @@ h2, h3 {
 .nav a {
   color: #fff;
   text-decoration: none;
+}
+
+p {
+  font-family: "Josefin Sans", sans-serif;
 }
