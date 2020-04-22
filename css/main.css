@@ -6,7 +6,8 @@ header, footer, .btn {
   background-color: #3B8D8B;
 }
 
-h1 {
+.main-title, .footer-title, nav {
+  color: #fff;
   font-family: 'Raleway', sans-serif;
 }
 h2, h3 {
@@ -21,4 +22,9 @@ h2, h3 {
 
 p {
   font-family: "Josefin Sans", sans-serif;
+}
+
+.btn {
+  border-radius: 40px;
+  border-color: #3B8D8B;
 }
