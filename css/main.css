@@ -10,7 +10,7 @@ header, footer, .btn {
   color: #fff;
   font-family: 'Raleway', sans-serif;
 }
-h2, h3, .page-title {
+h2, h3, .page-title, .titles, .price {
   color: #3B8D8B;
   font-family: "Be Vietnam", sans-serif;
 }
@@ -20,7 +20,7 @@ h2, h3, .page-title {
   text-decoration: none;
 }
 
-p {
+p, .form, .mega {
   font-family: "Josefin Sans", sans-serif;
 }
 
