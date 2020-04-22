@@ -38,6 +38,23 @@ p {
   border-color: #fff;
 }
 
+.btn-3 {
+  color: #fff;
+  background-color: #3B8D8B;
+  border-color: #3B8D8B;
+}
+
+.btn-4 {
+  color: #fff;
+  background-color: #1463CB;
+  border-color: #1463CB;
+}
+
+.btn-5 {
+  color: #000;
+  background-color: #EAEAEA;
+  border-color: #EAEAEA;
+}
 .quote-2 {
   color: #fff;
   background-color: #3B8D8B;
