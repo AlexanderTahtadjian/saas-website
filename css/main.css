@@ -1,0 +1,17 @@
+html {
+  background-color: #EAEAEA;
+}
+
+header, footer, .btn {
+  background-color: #3B8D8B;
+}
+
+h2, h3 {
+  color: #3B8D8B;
+  font-family: "Be Vietnam", sans-serif;
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+}
