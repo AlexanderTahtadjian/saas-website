@@ -25,6 +25,7 @@ p, .form, .mega {
 }
 
 .btn-1 {
+  font-family: "Be Vietnam", sans-serif;
   border-radius: 40px;
   color: #fff;
   background-color: #3B8D8B;
@@ -32,6 +33,7 @@ p, .form, .mega {
 }
 
 .btn-2 {
+  font-family: "Be Vietnam", sans-serif;
   border-radius: 40px;
   color: #000;
   background-color: #fff;
@@ -39,6 +41,7 @@ p, .form, .mega {
 }
 
 .btn-3 {
+  font-family: "Be Vietnam", sans-serif;
   color: #fff;
   background-color: #3B8D8B;
   border-color: #3B8D8B;
