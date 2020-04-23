@@ -72,6 +72,19 @@ p, .form, .section-title {
   background-color: #CCCCCC;
   border-color: #CCCCCC;
 }
+
+.q-1, .q-4 {
+  color: #fff;
+  position: absolute;
+  width: 100%;
+  max-width: 50em;
+  left: 65%;
+  transform: translateX(-50%);
+  bottom: .5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
 .quote-2 {
   color: #fff;
   background-color: #3B8D8B;
