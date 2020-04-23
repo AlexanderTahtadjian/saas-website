@@ -15,6 +15,10 @@ h2, h3, .page-title, .titles, .price {
   font-family: "Be Vietnam", sans-serif;
 }
 
+.img-w {
+  width: 100%;
+}
+
 .nav a {
   color: #fff;
   text-decoration: none;
@@ -76,4 +80,16 @@ p, .form, .section-title {
 .quote-5 {
   color: #fff;
   background-color: #024561;
+}
+
+@media only screen and (min-width: 25em) {
+
+  h1 {
+    text-align: left;
+  }
+
+  nav {
+    text-align: right;
+  }
+
 }
