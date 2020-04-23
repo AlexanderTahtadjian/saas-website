@@ -37,67 +37,69 @@
 
   </header>
 
-  <form class="gutter pad-t-2 pad-b-2 max-length" method="POST" action="https://formspree.io/bradlet@algonquincollege.com">
-    <h2 class="page-title gutter pad-t-1-2 pad-b-1-2 max-length">JOIN</h2>
+  <main>
+    <form class="gutter pad-t-2 pad-b-2 max-length" method="POST" action="https://formspree.io/bradlet@algonquincollege.com">
+      <h2 class="page-title gutter pad-t-1-2 pad-b-1-2 max-length">JOIN</h2>
 
-    <fieldset class="push-0">
-      <legend class="section-title giga italic push">Personal details</legend>
+      <fieldset class="push-0">
+        <legend class="section-title giga italic push">Personal details</legend>
 
-      <div class="grid">
+        <div class="grid">
 
-        <div class="pad-right unit xs-1 s-1 m-1 l-1-2 push">
-          <label for="name">Username</label>
-          <input id="name" name="name" required>
+          <div class="pad-right unit xs-1 s-1 m-1 l-1-2 push">
+            <label for="name">Username</label>
+            <input id="name" name="name" required>
+          </div>
+          <div class="pad-right unit xs-1 s-1 m-1 l-1-2 push">
+            <label for="email">Email</label>
+            <input id="email" type="email" placeholder="me@me.com" name="email" required>
+          </div>
+          <div class="pad-left unit xs-1 s-1 m-1 l-1-2 push">
+            <label for="password">Password</label>
+            <input id="password" name="password" required>
+          </div>
+          <div class="pad-left unit xs-1 s-1 m-1 l-1-2 push-1-2">
+            <label for="subject">Confirm Password</label>
+            <input id="subject" name="_subject" required>
+          </div>
         </div>
-        <div class="pad-right unit xs-1 s-1 m-1 l-1-2 push">
-          <label for="email">Email</label>
-          <input id="email" type="email" placeholder="me@me.com" name="email" required>
+        <div class="push">
+          <label for="address">Address</label>
+          <textarea id="address" name="address" required></textarea>
         </div>
-        <div class="pad-left unit xs-1 s-1 m-1 l-1-2 push">
-          <label for="password">Password</label>
-          <input id="password" name="password" required>
+      </fieldset>
+
+      <div class="grid text-center">
+        <div class="unit push-1-4 unit xs-1 s-1 m-1-2 l-1-2">
+          <button class="btn-3 gutter-1-4" type="submit">Sign Up</button>
         </div>
-        <div class="pad-left unit xs-1 s-1 m-1 l-1-2 push-1-2">
-          <label for="subject">Confirm Password</label>
-          <input id="subject" name="_subject" required>
+        <input type="hidden" name="_subject" value="Request to join the mission">
+
+        <div class="unit push-1-4 unit xs-1 s-1 m-1-2 l-1-2">
+          <button class="btn-3 gutter-1-4" type="submit">Log In</button>
         </div>
-      </div>
-      <div class="push">
-        <label for="address">Address</label>
-        <textarea id="address" name="address" required></textarea>
-      </div>
-    </fieldset>
+        <input type="hidden" name="_subject" value="Request to join the mission">
 
-    <div class="grid text-center">
-      <div class="unit push-1-4 unit xs-1 s-1 m-1-2 l-1-2">
-        <button class="btn-3 gutter-1-4" type="submit">Sign Up</button>
-      </div>
-      <input type="hidden" name="_subject" value="Request to join the mission">
+        <div class="unit push-1-4 unit xs-1 s-1 m-1 l-1 unit-content-distribute">
+          <button class="btn-4" type="submit">Sign up with Facebook</button>
+        </div>
+        <input type="hidden" name="_subject" value="Request to join the mission">
 
-      <div class="unit push-1-4 unit xs-1 s-1 m-1-2 l-1-2">
-        <button class="btn-3 gutter-1-4" type="submit">Log In</button>
+        <div class="unit push-1-4 unit xs-1 s-1 m-1 l-1 unit-content-distribute">
+          <button class="btn-5" type="submit">Sign up with Gmail</button>
+        </div>
+        <input type="hidden" name="_subject" value="Request to join the mission">
       </div>
-      <input type="hidden" name="_subject" value="Request to join the mission">
+    </form>
 
-      <div class="unit push-1-4 unit xs-1 s-1 m-1 l-1 unit-content-distribute">
-        <button class="btn-4" type="submit">Sign up with Facebook</button>
+    <article class="grid quote-5 text-center">
+      <div class="unit xs-1 s-1 m-1 l-1 unit-content-distribute">
+        <blockquote class="peta pad-t-1-2">
+          <p class="tena island push-0">COME ALONG<br>AND LET'S BEGIN.</p>
+        </blockquote>
       </div>
-      <input type="hidden" name="_subject" value="Request to join the mission">
-
-      <div class="unit push-1-4 unit xs-1 s-1 m-1 l-1 unit-content-distribute">
-        <button class="btn-5" type="submit">Sign up with Gmail</button>
-      </div>
-      <input type="hidden" name="_subject" value="Request to join the mission">
-    </div>
-  </form>
-
-  <article class="grid quote-5 text-center">
-    <div class="unit xs-1 s-1 m-1 l-1 unit-content-distribute">
-      <blockquote class="peta pad-t-1-2">
-        <p class="tena island push-0">COME ALONG<br>AND LET'S BEGIN.</p>
-      </blockquote>
-    </div>
-  </article>
+    </article>
+  </main>
 
   <footer role="contentinfo">
     <div class="footer peta text-left island">
