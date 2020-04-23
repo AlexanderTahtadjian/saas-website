@@ -20,7 +20,17 @@ h2, h3, .page-title, .titles, .price {
 }
 
 .img-w-2 {
-  width: 25%;
+  width: 45%;
+}
+
+.test-1 {
+    padding: 0 1.5rem 1.5rem;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
 }
 
 .nav a {
@@ -106,26 +116,16 @@ p, span, .form, .section-title {
   background-color: #024561;
 }
 
-@media only screen and (min-width: 25em) {
-
-  .img-w-2 {
-    width: 50%;
-  }
-
-}
-
 @media only screen and (min-width: 38em) {
 
-  .img-w-2 {
-    width: 60%;
-  }
-
-}
-
-@media only screen and (min-width: 60em) {
-
-  .img-w-2 {
-    width: 70%;
+  .test-1 {
+      padding: 0 1.5rem 1.5rem;
+      text-align: left;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: stretch;
   }
 
 }
