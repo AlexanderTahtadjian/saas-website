@@ -45,7 +45,6 @@ p, span, .form, .section-title {
 
 .btn-1 {
   font-family: "Be Vietnam", sans-serif;
-  font-size: .875rem;
   border-radius: 40px;
   max-width: 20em;
   position: absolute;
@@ -62,7 +61,6 @@ p, span, .form, .section-title {
 
 .btn-2 {
   font-family: "Be Vietnam", sans-serif;
-  font-size: .875rem;
   border-radius: 40px;
   max-width: 20em;
   color: #000;
@@ -72,7 +70,6 @@ p, span, .form, .section-title {
 
 .btn-3 {
   font-family: "Be Vietnam", sans-serif;
-  font-size: .875rem;
   width: 30%;
   color: #fff;
   background-color: #3b8d8b;
@@ -80,7 +77,6 @@ p, span, .form, .section-title {
 }
 
 .btn-4 {
-  font-size: .875rem;
   width: 50%;
   color: #fff;
   background-color: #1463cb;
@@ -88,7 +84,6 @@ p, span, .form, .section-title {
 }
 
 .btn-5 {
-  font-size: .875rem;
   width: 50%;
   color: #000;
   background-color: #ccc;
