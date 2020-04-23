@@ -39,6 +39,35 @@ h2, h3, .page-title, .titles, .price {
   text-decoration: none;
 }
 
+.nav a:hover {
+  color: #3b8d8b;
+  background-color: #fff;
+}
+
+.btn-1:hover {
+  color: #fff;
+  background-color: #1463cb;
+  border-color: #1463cb;
+}
+
+.btn-2:hover {
+  color: #fff;
+  background-color: #1463cb;
+  border-color: #1463cb;
+}
+
+.btn-4:hover {
+  color: #3b8d8b;
+  background-color: #fff;
+  border-color: #3b8d8b;
+}
+
+.btn-5:hover {
+  color: #3b8d8b;
+  background-color: #fff;
+  border-color: #3b8d8b;
+}
+
 p, span, .form, .section-title {
   font-family: "Josefin Sans", sans-serif;
 }
@@ -63,7 +92,7 @@ p, span, .form, .section-title {
   font-family: "Be Vietnam", sans-serif;
   border-radius: 40px;
   max-width: 20em;
-  color: #000;
+  color: #3b8d8b;
   background-color: #fff;
   border-color: #fff;
 }
