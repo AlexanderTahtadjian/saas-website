@@ -37,6 +37,13 @@ p, span, .form, .section-title {
   font-size: .875rem;
   border-radius: 40px;
   max-width: 20em;
+  position: absolute;
+  width: 100%;
+  left: 65%;
+  transform: translateX(-50%);
+  bottom: .5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
   color: #fff;
   background-color: #3B8D8B;
   border-color: #3B8D8B;
@@ -55,7 +62,7 @@ p, span, .form, .section-title {
 .btn-3 {
   font-family: "Be Vietnam", sans-serif;
   font-size: .875rem;
-  width: 50%;
+  width: 98%;
   color: #fff;
   background-color: #3B8D8B;
   border-color: #3B8D8B;
@@ -101,12 +108,24 @@ p, span, .form, .section-title {
 
 @media only screen and (min-width: 25em) {
 
-  h1 {
-    text-align: left;
+  .img-w-2 {
+    width: 50%;
   }
 
-  nav {
-    text-align: right;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .img-w-2 {
+    width: 60%;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .img-w-2 {
+    width: 70%;
   }
 
 }
