@@ -20,7 +20,7 @@ h2, h3, .page-title, .titles, .price {
   text-decoration: none;
 }
 
-p, .form, .mega {
+p, .form, .section-title {
   font-family: "Josefin Sans", sans-serif;
 }
 
@@ -55,8 +55,8 @@ p, .form, .mega {
 
 .btn-5 {
   color: #000;
-  background-color: #EAEAEA;
-  border-color: #EAEAEA;
+  background-color: #CCCCCC;
+  border-color: #CCCCCC;
 }
 .quote-2 {
   color: #fff;
