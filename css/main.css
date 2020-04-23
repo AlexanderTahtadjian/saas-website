@@ -1,17 +1,18 @@
 html {
-  background-color: #EAEAEA;
+  background-color: #eaeaea;
 }
 
 header, footer, .btn {
-  background-color: #3B8D8B;
+  background-color: #3b8d8b;
 }
 
 .main-title, .footer-title, nav {
   color: #fff;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
+
 h2, h3, .page-title, .titles, .price {
-  color: #3B8D8B;
+  color: #3b8d8b;
   font-family: "Be Vietnam", sans-serif;
 }
 
@@ -24,13 +25,13 @@ h2, h3, .page-title, .titles, .price {
 }
 
 .test-1 {
-    padding: 0 1.5rem 1.5rem;
-    text-align: center;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: stretch;
+  padding: 0 1.5rem 1.5rem;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
 }
 
 .nav a {
@@ -55,8 +56,8 @@ p, span, .form, .section-title {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   color: #fff;
-  background-color: #3B8D8B;
-  border-color: #3B8D8B;
+  background-color: #3b8d8b;
+  border-color: #3b8d8b;
 }
 
 .btn-2 {
@@ -74,29 +75,29 @@ p, span, .form, .section-title {
   font-size: .875rem;
   width: 30%;
   color: #fff;
-  background-color: #3B8D8B;
-  border-color: #3B8D8B;
+  background-color: #3b8d8b;
+  border-color: #3b8d8b;
 }
 
 .btn-4 {
   font-size: .875rem;
   width: 50%;
   color: #fff;
-  background-color: #1463CB;
-  border-color: #1463CB;
+  background-color: #1463cb;
+  border-color: #1463cb;
 }
 
 .btn-5 {
   font-size: .875rem;
   width: 50%;
   color: #000;
-  background-color: #CCCCCC;
-  border-color: #CCCCCC;
+  background-color: #ccc;
+  border-color: #ccc;
 }
 
 .quote-2 {
   color: #fff;
-  background-color: #3B8D8B;
+  background-color: #3b8d8b;
 }
 
 .quote-5 {
@@ -107,14 +108,15 @@ p, span, .form, .section-title {
 @media only screen and (min-width: 38em) {
 
   .test-1 {
-      padding: 0 1.5rem 1.5rem;
-      text-align: left;
-      display: flex;
-      flex-wrap: wrap;
-      flex-direction: row;
-      justify-content: space-between;
-      align-items: stretch;
+    padding: 0 1.5rem 1.5rem;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
   }
+
   .q-1, .q-4 {
     color: #fff;
     position: absolute;
