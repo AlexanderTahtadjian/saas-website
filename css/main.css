@@ -56,6 +56,12 @@ h2, h3, h4, .page-title, .titles, .price {
   border-color: #1463cb;
 }
 
+.btn-3:hover {
+  color: #fff;
+  background-color: #1463cb;
+  border-color: #1463cb;
+}
+
 .btn-4:hover {
   color: #3b8d8b;
   background-color: #fff;
