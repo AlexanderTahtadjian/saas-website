@@ -19,6 +19,10 @@ h2, h3, .page-title, .titles, .price {
   width: 100%;
 }
 
+.img-w-2 {
+  width: 25%;
+}
+
 .nav a {
   color: #fff;
   text-decoration: none;
