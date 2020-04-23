@@ -24,7 +24,7 @@ h2, h3, .page-title, .titles, .price {
   text-decoration: none;
 }
 
-p, .form, .section-title {
+p, span, .form, .section-title {
   font-family: "Josefin Sans", sans-serif;
 }
 
