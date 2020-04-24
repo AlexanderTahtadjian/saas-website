@@ -99,6 +99,11 @@ p, span, .form, .section-title {
   font-family: "Be Vietnam", sans-serif;
   border-radius: 40px;
   max-width: 20em;
+  position: absolute;
+  width: 100%;
+  left: 35%;
+  transform: translateX(-10%);
+  transform: translateY(-10%);
   color: #3b8d8b;
   background-color: #fff;
   border-color: #fff;
